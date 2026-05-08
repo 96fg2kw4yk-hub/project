@@ -1,29 +1,39 @@
-# ── Python 运行时 ──
-__pycache__/
-*.py[cod]
-*.pyo
-*.egg-info/
-dist/
-build/
-
-# ── 虚拟环境 ──
+# Python virtual environment
 .venv/
 venv/
 env/
-.env
+ENV/
 
-# ── IDE ──
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# ── 数据目录（可重新生成） ──
+# Data directories (regeneratable)
 data/repos/
 data/indexes/chroma/
 data/indexes/*.pkl
 data/logs/
+checkpoints/
 
-# ── 系统文件 ──
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS files
 .DS_Store
 Thumbs.db
